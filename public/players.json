@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "img": "https://joynul2024.sirv.com/players_picture/players_1.png",
     "name": "Virat Kohli",
     "country": "Australia",
     "price": 1000000,
@@ -9,6 +10,7 @@
   },
   {
     "id": 2,
+    "img": "https://joynul2024.sirv.com/players_picture/players_2.png",
     "name": "Ravi Patel",
     "country": "India",
     "price": 1500000,
@@ -17,6 +19,7 @@
   },
   {
     "id": 3,
+    "img": "https://joynul2024.sirv.com/players_picture/players_3.jpg",
     "name": "Chris Taylor",
     "country": "England",
     "price": 850000,
@@ -25,6 +28,7 @@
   },
   {
     "id": 4,
+    "img": "https://joynul2024.sirv.com/players_picture/players_4.jpg",
     "name": "Nathan Lee",
     "country": "New Zealand",
     "price": 700000,
@@ -33,6 +37,7 @@
   },
   {
     "id": 5,
+    "img": "https://joynul2024.sirv.com/players_picture/players_5.jpg",
     "name": "Mohammed Shahid",
     "country": "Pakistan",
     "price": 1200000,
@@ -41,6 +46,7 @@
   },
   {
     "id": 6,
+    "img": "https://joynul2024.sirv.com/players_picture/players_6.jpg",
     "name": "Carlos Mendes",
     "country": "South Africa",
     "price": 600000,
@@ -49,6 +55,7 @@
   },
   {
     "id": 7,
+    "img": "https://joynul2024.sirv.com/players_picture/players_7.jpg",
     "name": "David Harper",
     "country": "West Indies",
     "price": 1100000,
@@ -57,6 +64,7 @@
   },
   {
     "id": 8,
+    "img": "https://joynul2024.sirv.com/players_picture/players_8.jpg",
     "name": "Shinji Takahashi",
     "country": "Japan",
     "price": 500000,
@@ -65,6 +73,7 @@
   },
   {
     "id": 9,
+    "img": "https://joynul2024.sirv.com/players_picture/players_9.jpg",
     "name": "Fernando Gomez",
     "country": "Spain",
     "price": 900000,
@@ -73,6 +82,7 @@
   },
   {
     "id": 10,
+    "img": "https://joynul2024.sirv.com/players_picture/players_10.jpg",
     "name": "Oliver Johnson",
     "country": "England",
     "price": 1300000,
