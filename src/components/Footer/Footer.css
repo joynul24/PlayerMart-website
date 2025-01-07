@@ -1,0 +1,16 @@
+.text-color {
+  color: #ffffff99;
+}
+
+.btn-footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(231, 254, 41),
+    rgba(226, 146, 192)
+  );
+  font-weight: 700;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 0px 12px 12px 0px;
+  border: none;
+}
