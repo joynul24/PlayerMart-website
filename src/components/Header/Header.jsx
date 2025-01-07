@@ -23,7 +23,9 @@ const Header = () => {
         </div>
         <h2 className="text-4xl font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h2>
         <p className="text-2xl font-medium opacity-70">Beyond Boundaries Beyond Limits</p>
-        <p><button className="btn banner-btn">Claim Free Credit</button></p>
+        <div className='flex justify-center'>
+        <p className='border-2 border-[#CEF145] p-2 rounded-2xl'><button className="btn banner-btn">Claim Free Credit</button></p>
+        </div>
       </div>
     </header>
   );
