@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "Australia",
+    "price": 1000000,
+    "category": "Batsman",
+    "batting_hand": "Right-hand-bat"
+  },
+  {
+    "id": 2,
+    "name": "Ravi Patel",
+    "country": "India",
+    "price": 1500000,
+    "category": "All-rounder",
+    "batting_hand": "Left-hand-bat"
+  },
+  {
+    "id": 3,
+    "name": "Chris Taylor",
+    "country": "England",
+    "price": 850000,
+    "category": "Bowler",
+    "batting_hand": "Right-hand-bat"
+  },
+  {
+    "id": 4,
+    "name": "Nathan Lee",
+    "country": "New Zealand",
+    "price": 700000,
+    "category": "Batsman",
+    "batting_hand": "Left-hand-bat"
+  },
+  {
+    "id": 5,
+    "name": "Mohammed Shahid",
+    "country": "Pakistan",
+    "price": 1200000,
+    "category": "All-rounder",
+    "batting_hand": "Right-hand-bat"
+  },
+  {
+    "id": 6,
+    "name": "Carlos Mendes",
+    "country": "South Africa",
+    "price": 600000,
+    "category": "Bowler",
+    "batting_hand": "Left-hand-bat"
+  },
+  {
+    "id": 7,
+    "name": "David Harper",
+    "country": "West Indies",
+    "price": 1100000,
+    "category": "All-rounder",
+    "batting_hand": "Right-hand-bat"
+  },
+  {
+    "id": 8,
+    "name": "Shinji Takahashi",
+    "country": "Japan",
+    "price": 500000,
+    "category": "Batsman",
+    "batting_hand": "Right-hand-bat"
+  },
+  {
+    "id": 9,
+    "name": "Fernando Gomez",
+    "country": "Spain",
+    "price": 900000,
+    "category": "Bowler",
+    "batting_hand": "Left-hand-bat"
+  },
+  {
+    "id": 10,
+    "name": "Oliver Johnson",
+    "country": "England",
+    "price": 1300000,
+    "category": "All-rounder",
+    "batting_hand": "Right-hand-bat"
+  }
+]
