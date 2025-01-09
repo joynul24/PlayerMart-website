@@ -7,7 +7,7 @@ const Selected = ({handleIsActiveStatus,isActive, playerData, handleDeleteDetail
     return (
         <div>
          <div className="flex justify-between items-center">
-        <h2 className="text-3xl font-bold">Selected Player ({playerData.length})</h2>
+        <h2 className="text-3xl font-bold">Selected Player ({playerData.length} / 6)</h2>
         <div className="flex">
 
           <button 

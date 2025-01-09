@@ -45,14 +45,32 @@ function App() {
 
   
   const handleChoosePlayer = (player) => {
-    const newPlayerData = [...playerData, player];
-    setPlayerData(newPlayerData);
+    const {price} = player;
+
+    if(coin > price){
+      const remainingCoin = coin - price;
+      setCoin(remainingCoin)
+      const newPlayerData = [...playerData, player];
+      if(newPlayerData.length > 6) {
+        toast.error("Already 6 player selected");
+      }
+      else{
+        setPlayerData(newPlayerData);
+        toast.success("Congrates !! Marnus Labuschagne is now in your squad");
+      }
+      
+    }
+    else{
+      toast.error("Not enough money to buy this player Claim some Credit");
+    }
+   
   }
 
 
   const handleDeleteDetails = (id) => {
     // console.log("added deatals delete", id);
     const remainingPlayers = playerData.filter(player => player.id !== id);
+    toast.warning("Player removed");
     setPlayerData(remainingPlayers);
   }
 
