@@ -46,22 +46,28 @@ function App() {
   
   const handleChoosePlayer = (player) => {
     const {price} = player;
-
-    if(coin > price){
-      const remainingCoin = coin - price;
-      setCoin(remainingCoin)
-      const newPlayerData = [...playerData, player];
-      if(newPlayerData.length > 6) {
-        toast.error("Already 6 player selected");
+     
+    const remaining = playerData.find(singlePlayer => singlePlayer.id === player.id);
+    if(!remaining) {
+      setPlayerData([...playerData, player]);
+      if(coin > price){
+        const remainingCoin = coin - price;
+        setCoin(remainingCoin)
+        const newPlayerData = [...playerData, player];
+        if(newPlayerData.length > 6) {
+          toast.error("Already 6 player selected");
+        }
+        else{
+          setPlayerData(newPlayerData);
+          toast.success("Congrates !! Marnus Labuschagne is now in your squad");
+        }
+        
       }
       else{
-        setPlayerData(newPlayerData);
-        toast.success("Congrates !! Marnus Labuschagne is now in your squad");
+        toast.error("Not enough money to buy this player Claim some Credit");
       }
-      
-    }
-    else{
-      toast.error("Not enough money to buy this player Claim some Credit");
+    } else{
+      toast.error('already selecte single card')
     }
    
   }

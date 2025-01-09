@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const Details = ({player, handleDeleteDetails}) => {
-    const {id, img, name, batting_hand} = player;
+    const {id, img, name, batting_hand, price} = player;
 
     return (
         <div>
@@ -10,6 +10,7 @@ const Details = ({player, handleDeleteDetails}) => {
                     <img className="w-[80px] h-[80px] rounded-2xl" src={img} alt="" />
                     <div>
                         <h3 className="text-2xl font-semibold">{name}</h3>
+                        <p className="text-xl font-semibold opacity-70 mt-2">${price}</p>
                         <p className="opacity-70 mt-3">{batting_hand}</p>
                     </div>
                 </div>

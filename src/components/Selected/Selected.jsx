@@ -26,7 +26,9 @@ const Selected = ({handleIsActiveStatus,isActive, playerData, handleDeleteDetail
             }
          </div>
           <div className="flex mt-3">
-          <p className="border-2 border-black p-2 rounded-2xl"><button 
+          <p className="border-2 border-black p-2 rounded-2xl">
+            <button
+            onClick={()=> handleIsActiveStatus("available")} 
           className="btn bg-yellow-300">Add More Player</button></p>
           </div>
         </div>
