@@ -1,9 +1,14 @@
 import './Header.css'
+import PropTypes from "prop-types";
 
-const Header = () => {
+
+
+const Header = ({handleAddToCoin,coin}) => {
+  
+  
   return (
     <header>
-      <nav className="flex justify-between items-center">
+      <nav className="pt-5 flex justify-between items-center">
         <div>
           <img src="https://joynul2024.sirv.com/project-img/logo.png" alt="" />
         </div>
@@ -13,7 +18,7 @@ const Header = () => {
           <p>Fixture</p>
           <p>Teams</p>
           <p>Schedules</p>
-          <p className='font-bold flex items-center gap-2'>0 Coin <img className='w-7' src="https://joynul2024.sirv.com/project-img/coin.png" alt="" /></p>
+          <p className='font-bold flex items-center gap-2'>$ {coin} Coin <img className='w-7' src="https://joynul2024.sirv.com/project-img/coin.png" alt="" /></p>
         </div>
       </nav>
       {/* Banner Section */}
@@ -24,11 +29,21 @@ const Header = () => {
         <h2 className="text-4xl font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h2>
         <p className="text-2xl font-medium opacity-70">Beyond Boundaries Beyond Limits</p>
         <div className='flex justify-center'>
-        <p className='border-2 border-[#CEF145] p-2 rounded-2xl'><button className="btn banner-btn">Claim Free Credit</button></p>
+        <p className='border-2 border-[#CEF145] p-2 rounded-2xl'>
+          <button 
+          onClick={handleAddToCoin}
+          className="btn banner-btn">Claim Free Credit</button>
+ 
+          </p>
         </div>
       </div>
     </header>
   );
 };
+
+Header.propTypes = {
+  handleAddToCoin: PropTypes.func.isRequired,
+  coin: PropTypes.number.isRequired, 
+}
 
 export default Header;

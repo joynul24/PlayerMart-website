@@ -57,6 +57,8 @@ const Footer = () => {
           </div>
         </nav>
       </div>
+      <hr className="opacity-70 mt-7" />
+      <p className="text-center mt-8 pb-8 opacity-70">@2024 Your Company All Rights Reserved.</p>
     </footer>
   );
 };

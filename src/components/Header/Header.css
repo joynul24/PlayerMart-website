@@ -1,11 +1,12 @@
 .banner-btn {
-  background-image: linear-gradient(
-    to right,
-    rgba(226, 146, 192),
-    rgb(231, 254, 41)
-  );
+  background: linear-gradient(to right, rgba(226, 146, 192), rgb(231, 254, 41));
   border: none;
   border-radius: 12px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.banner-btn:hover {
+  background: linear-gradient(to right, rgb(231, 254, 41), rgba(226, 146, 192))
+   ;
 }
