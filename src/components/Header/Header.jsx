@@ -33,7 +33,6 @@ const Header = ({handleAddToCoin,coin}) => {
           <button 
           onClick={handleAddToCoin}
           className="btn banner-btn">Claim Free Credit</button>
- 
           </p>
         </div>
       </div>
