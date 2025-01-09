@@ -16,4 +16,4 @@
 * Dynamic and Interactive Interface
 * Ui (clean and simple ui) 
   
-My Projec live link: 
+My Projec live link: https://players-purchase.netlify.app/
