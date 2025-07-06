@@ -1,4 +1,4 @@
-1. Porject Name: Players Purchase
+1. Porject Name: PlayerMart Website
 
 2. I made this project with react and html, css, daisyui and tailwind, this is a player purchse website where you can buy the player of your choice according to your budget with dollars
 
@@ -16,4 +16,4 @@
 * Dynamic and Interactive Interface
 * Ui (clean and simple ui) 
   
-My Projec live link: https://players-purchase.netlify.app/
+My Projec live link: https://playermart.netlify.app/

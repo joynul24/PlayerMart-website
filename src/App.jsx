@@ -49,6 +49,10 @@ function App() {
      
     const remaining = playerData.find(singlePlayer => singlePlayer.id === player.id);
     if(!remaining) {
+      if(coin <= 0){
+        toast.error("Not enough money to buy this player Claim some Credit");
+        return;
+      }
       setPlayerData([...playerData, player]);
       if(coin > price){
         const remainingCoin = coin - price;
